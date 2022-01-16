@@ -48,8 +48,9 @@ while num_of_guesses < 6:
   guess = input("Enter your next guess: ")
 
 if num_of_guesses >= 6:
-  print("Your out of guesses! Better luck next time!")
-
+  str = ""
+  print("Your out of guesses! The word was: " + str.join(word) + ". Better luck next time!")
+ 
 
 #Write the main part of your program here. Use of the other pages is optional.
 
