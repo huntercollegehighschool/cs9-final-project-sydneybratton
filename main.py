@@ -37,7 +37,7 @@ while num_of_guesses < max_guesses:
     print("Your guess cannot have spaces")
     guess = input("Enter another guess: ")
 
-  if str.isalpha(guess) == False:
+  while str.isalpha(guess) == False:
     print("That is not a word.")
     guess = input("Enter another guess: ")
 
