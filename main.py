@@ -1,6 +1,7 @@
 """
 Name(s): Sydney Bratton and Logan Lee
-Name of Project: WORDLE
+Name of Project: WORDLE 
+Version: Final for submission
 """
 import random
 
