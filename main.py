@@ -13,13 +13,7 @@ with open(filename) as file:
 word = random.choice(listofwords) #picks a random word from the listofwords
 word = word.upper()
 
-print("Welcome to WORDLE 2.0")
-print("Here, you will have " + str(max_guesses) + " tries to guess a 5 letter word, and each of your guesses has to have 5 letters as well.")
-print("After each guess, the program will tell you your progress. Out of the letters you entered, it will print:")
-print("1) Capital letters for those that are in the word and in the correct spot") 
-print("2) Lowercase letters for those in the word but in the wrong spot")
-print("3) Asterisks (*) for letters that are not in the word ")
-print("To make this a little easier none of the words have the same letter twice!")
+print("Welcome to WORDLE 2.0\nHere, you will have " + str(max_guesses) + " tries to guess a 5 letter word, and each of your guesses has to have 5 letters as well. \nAfter each guess, the program will tell you your progress. Out of the letters you entered, it will print: \n1) Capital letters for those that are in the word and in the correct spot \n2) Lowercase letters for those in the word but in the wrong spot \n3) Asterisks (*) for letters that are not in the word \nTo make this a little easier none of the words have the same letter twice!")
 
 guess = input("Enter your first guess: ")
 
